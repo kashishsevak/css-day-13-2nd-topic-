@@ -74,9 +74,9 @@
                 </ul>
             </nav>
             <div class="order">
-                <div class="box1 order-0">Flex-order: 0</div>
-                <div class="box1 order-1">Flex-order: 1</div>
-                <div class="box1">Flex-order: 2</div>
+                <div class="box1 order-0">order: 0;</div>
+                <div class="box1 order-1">order: 1;</div>
+                <div class="box1">order: 2;</div>
                 <div class="box1">1</div>
                 <div class="box1">2</div>
                 <div class="box1">3</div>
@@ -95,6 +95,83 @@
                 <div class="box1">16</div>
                 <div class="box1">17</div>
                 <div class="box1">18</div>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Display : Flex(Child Property)Align-self: flex-start</h2>
+            <nav>
+                <ul>
+                    <li>The align-self CSS property overrides a grid or flex item's align-items value. In Flexbox, it aligns the item on the cross axis. In Flexbox, it aligns the item on the cross axis.</li>
+                    <li>The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.</li>
+                </ul>
+            </nav>
+            <div class="align-self">
+                <div class="box1 align-self-start">1</div>
+                <div class="box1 align-self-start">align-self:flex-start</div>
+                <div class="box1 align-self-start">align-self:flex-start</div>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Display : Flex(Child Property)Align-self: flex-end</h2>
+            <nav>
+                <ul>
+                    <li>The cross-end margin edge of the flex item will flushed with the cross-end edge of the line.</li>
+                </ul>
+            </nav>
+            <div class="align-self">
+                <div class="box1 align-self-end">align-self:flex-end;</div>
+                <div class="box1">2</div>
+                <div class="box1 align-self-end">align-self:flex-end;</div>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Display : Flex(Child Property)Align-self: center</h2>
+            <nav>
+                <ul>
+                    <li>The flex item's margin box is centered within the line on the cross-axis. If the cross size of the item is larger than the flex container, it will overflow equally in both directions.</li>
+                </ul>
+            </nav>
+            <div class="align-self">
+                <div class="box1">1</div>
+                <div class="box1 align-self-center">align-self:center;</div>
+                <div class="box1">2</div>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Display : Flex(Child Property)Align-self: stretch</h2>
+            <nav>
+                <ul>
+                    <li>If the combined size of the items along the cross axis is less than the size of the alignment container and the item is auto-sized, its size is increased equally (not proportionally), while still respecting the constraints imposed by max-height/max-width (or equivalent functionality), so that the combined size of all auto-sized items exactly fills the alignment container along the cross axis.</li>
+                </ul>
+            </nav>
+            <div class="align-self">
+                <div class="box1 align-self-stretch">align-self:stretch;</div>
+                <div class="box1">1</div>
+                <div class="box1">2</div>
+                <div class="box1 align-self-stretch">align-self:stretch;</div>
+                <div class="box1">2</div>
+                <div class="box1">1</div>
+                <div class="box1">2</div>
+                <div class="box1">1</div>
+                <div class="box1">2</div>
+                <div class="box1">1</div>
+                <div class="box1">2</div>
+                <div class="box1">1</div>
+                <div class="box1">2</div>
+                <div class="box1">1</div>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Display : Flex(Child Property)Align-self: baseline</h2>
+            <nav>
+                <ul>
+                    <li>Specifies participation in first or last baseline alignment. aligns the alignment baseline of the box's first or last baseline set with the corresponding baseline in the shared first or last baseline set of all the boxes in its baseline-sharing group. The fallback alignment for first baseline is start, the one for last baseline is end.</li>
+                </ul>
+            </nav>
+            <div class="align-self">
+                <div class="box1 align-self-baseline">1</div>
+                <div class="box1 align-self-baseline">2</div>
+                <div class="box1 align-self-baseline">3</div>
             </div>
         </div>
     </div>
